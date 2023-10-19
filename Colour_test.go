@@ -51,8 +51,8 @@ func main() {
 	)
 
 	fmt.Println("And now, a loop:")
-	for i:=0; i<=110; i++ {
-		fmt.Print("*** \033["+strconv.Itoa(i)+"m["+strconv.Itoa(i)+"\033[0m ")
+	for i := 0; i <= 110; i++ {
+		fmt.Print("*** \033[" + strconv.Itoa(i) + "m[" + strconv.Itoa(i) + "\033[0m ")
 	}
 	fmt.Println()
 }
